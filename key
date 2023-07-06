@@ -120,14 +120,14 @@ UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 UICorner_5.CornerRadius = UDim.new(1, 1)
 UICorner_5.Parent = Login
 
-AdrenalineHub.Name = "Alpha Hub"
+AdrenalineHub.Name = "Gomu GUB"
 AdrenalineHub.Parent = Main
 AdrenalineHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 AdrenalineHub.BackgroundTransparency = 1.000
 AdrenalineHub.Position = UDim2.new(0.210772797, 0, 0.0502282977, 0)
 AdrenalineHub.Size = UDim2.new(0, 291, 0, 50)
 AdrenalineHub.Font = Enum.Font.Ubuntu
-AdrenalineHub.Text = "Alpha Hub"
+AdrenalineHub.Text = "Gomu GUB"
 AdrenalineHub.TextColor3 = Color3.fromRGB(255, 255, 255)
 AdrenalineHub.TextScaled = true
 AdrenalineHub.TextSize = 14.000
@@ -165,7 +165,7 @@ local function TVNZXBG_fake_script() -- GetKey.LocalScript
 	end;
 	
 	button.MouseButton1Down:Connect(function()
-		notify('Alpha Hub', 'Please goto the url that has been set to your clipboard.', 4);
+		notify('Gomu GUB', 'Please goto the url that has been set to your clipboard.', 4);
 		setclipboard(tostring(linkvertise));
 	end);
 end
@@ -187,11 +187,11 @@ local function XGBCXG_fake_script() -- Login.LocalScript
 	
 	button.MouseButton1Down:Connect(function()
 		if (script.Parent.Parent.KeyHere.Text == tostring(key)) then
-			notify('Alpha Hub', 'The Key You Entered Is Corret');
+			notify('Gomu GUB', 'The Key You Entered Is Corret');
             loadstring(thescript)();
         script.Parent.Parent.Parent:Destroy();
 		else if not (script.Parent.Parent.KeyHere.Text == tostring(key)) then
-			notify('Alpha Hub', 'The Key You Entered Is Expired Or Incorrect');
+			notify('Gomu GUB', 'The Key You Entered Is Expired Or Incorrect');
 			end;
 		end;
 	end);
