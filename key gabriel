@@ -2,7 +2,7 @@ local linkvertise = 'https://bit.ly/3pAT6XW';
 local key = game:HttpGet'https://pastebin.com/raw/GUqDgmhB';
 -- script goes in here
 local thescript = [[
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/pokelok/Kraken/main/key"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/pokelok/gomu/main/direto"))()
 ]];
 
 ---------------------------------------------
