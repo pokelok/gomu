@@ -1,4 +1,4 @@
-local linkvertise = 'https://bit.ly/44HJMAR'
+local linkvertise = 'https://shorten.tv/eGrzi'
 local discordLink = 'https://discord.gg/KAjqmrqSC6'
 local uniqueKey = game:HttpGet'https://pastebin.com/raw/1jGwRmTQ';
 
